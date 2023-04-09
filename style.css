@@ -1,0 +1,17 @@
+.text{
+    background-image: url(./Без\ названия.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: cover;
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+}
+.s{
+    text-align: center;
+}
+.b1 {
+    background: orange; 
+    color: white; 
+    font-size: 9pt; 
+   }
