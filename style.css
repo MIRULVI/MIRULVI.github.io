@@ -1,17 +1,22 @@
-.text{
-    background-image: url(./Без\ названия.jpg);
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    background-position: cover;
-    text-align: center;
-    height: 500px;
-    background-size: cover;
-}
-.s{
-    text-align: center;
-}
-.b1 {
-    background: orange; 
-    color: white; 
-    font-size: 9pt; 
-   }
+
+    .body {
+      background-color: black;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+      }
+      .container {
+        border: 0px solid #23e71c;
+        background-color: #23e71c;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      .round {
+        border-radius: 100px;
+        box-shadow: 0 0 7px #666;  
+        margin-bottom: 100px;
+        margin-left: 600px; 
+        }
+    
+    
