@@ -4,49 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="style/reset.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-        <div class="ss">
-        <img src="./logo.svg">
-        </div>
-        <div class="flex">
-            <ul class="nav">
-                <li>HOME</li>
- <li>PROJECT</li>
-    <li>SERVICES</li>
-        <li>ABOUT</li>
-    <li>BLOG </li>
-    <li>SHOP</li>
-  <li>CONTACT</li>
-            </ul>
-        </div>
+    <header class="header">
         <div>
-            <button class="button">Sign Up</button>
+            <img src="./logo" alt="logo">
         </div>
-    </nav>
+        <div class="menu-wrapper">
+<ul class="menu-items-wrapper">
+    <li class="active">
+    <a href="#home">Home</a>
+</li>
+    <li>Destination</li>
+    <li>About</li>
+    <li>Partner</li>
+</ul>
+<div class="bth-wrapper">
+<button class="bth bth-outline">Login</button>
+<button class="bth bth-fill">Register</button>
+</div>
+</div>
     </header>
-    <section>
-       <div class="se">
-        MODERN INTERIOR
-    </div>
-    <div class="a">
-        Create Your<br>
-        Interior Design.
-    </div>
-    <div class="sd">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>
-veniam, quis nostrud exercitation.
-    </div>
-    <div>
-        <button class="bb">
-
-        </button>
-    </div>
+    <section class="hero">
+        <p class="title">Explore and <br> Travel</p>
+        <p cllas="subtitle">Holiday friend</p>
+        <span class="line"></span>
+        <div class="row mt-48">
+            <select class="select" name="" id="">
+            <option value="Azerbijan">Azerbaijan</option>
+            <option value="Turkey">Turkey</option>
+        </select>
+        <select class="select" name="" id="">
+            <option value="Football">Football</option>
+            <option value="basketball">Basketball</option>
+        </select>
+        </div>
+        <div class="row mt-35">
+            <select class="select" name="" id="">
+            <option value="Azerbijan">Azerbaijan</option>
+            <option value="Turkey">Turkey</option>
+        </select>
+        <select class="select" name="" id="">
+            <option value="Football">Football</option>
+            <option value="basketball">Basketball</option>
+        </select>
+        </div>
     </section>
+    <section class="explore"></section>
+    <section class="destination"></section>
+    <section class="testimonial"></section>
+    <footer class="footer"></footer>
 </body>
 </html>
